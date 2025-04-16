@@ -1,0 +1,38 @@
+{
+  config,
+  pkgs,
+  options,
+  lib,
+  inputs,
+  system,
+  systemSettings,
+  userSettings,
+  ...
+}: {
+  imports = [
+    ./local-hardware-clock.nix
+    ./kernel.nix
+    ./bootloader.nix
+    ./plymouth.nix
+    ./dbus.nix
+    ./audio.nix
+    ./fingerprintd.nix
+    ./system-hardware.nix
+    ./security.nix
+    ./powermanagement.nix
+    ./btrfs.nix
+    ./zfs.nix
+    ./zram.nix
+    ./locale.nix
+    ./fonts.nix
+    ./autoUpgrade.nix
+    ./services.nix
+    ./flatpak.nix
+    ./network.nix
+    ./podman.nix
+    ./docker.nix
+    ./virt-manager.nix
+    ./kime.nix
+    ./nix.nix
+  ];
+}

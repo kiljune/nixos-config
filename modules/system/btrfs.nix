@@ -1,0 +1,26 @@
+{
+  pkgs,
+  config,
+  options,
+  lib,
+  inputs,
+  system,
+  systemSettings,
+  userSettings,
+  ...
+}:
+with lib; let
+  cfg = config.system.btrfs;
+in {
+  options.system.btrfs = {
+    enable = mkEnableOption "Enable btrfs Modules";
+  };
+
+  config = mkIf cfg.enable {
+    services.btrfs.autoScrub = {
+      enable = true;
+      interval = "monthly";
+      fileSystems = ["/"];
+    };
+  };
+}
