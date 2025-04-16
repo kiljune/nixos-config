@@ -76,6 +76,7 @@ in {
           mode = "0700";
         }
         ".librewolf"
+        ".themes"
         "dotfiles"
         "nixos-config"
         "projects"
