@@ -32,7 +32,8 @@
     ./podman.nix
     ./docker.nix
     ./virt-manager.nix
-    ./kime.nix
+    #./kime.nix
+    ./ibus.nix
     ./nix.nix
   ];
 }
