@@ -7,6 +7,7 @@
     papirus-icon-theme
     nordzy-icon-theme
     bibata-cursors
+    nordic
     libsForQt5.qt5ct
     libsForQt5.qt5.qtwayland
     qt6ct
