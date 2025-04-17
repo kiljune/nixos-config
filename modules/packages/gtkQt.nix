@@ -8,6 +8,9 @@
     nordzy-icon-theme
     bibata-cursors
     nordic
+    orchis-theme
+    whitesur-gtk-theme
+    whitesur-kde
     libsForQt5.qt5ct
     libsForQt5.qt5.qtwayland
     qt6ct
