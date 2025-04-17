@@ -51,43 +51,6 @@ in {
         parentDirectory = {mode = "u=rwx,g=,o=";};
       }
     ];
-
-    users.kiljune = {
-      directories = [
-        "Desktop"
-        "Documents"
-        "Downloads"
-        "Music"
-        "Pictures"
-        "Public"
-        "Templates"
-        "Videos"
-        ".config"
-        {
-          directory = ".gnupg";
-          mode = "0700";
-        }
-        {
-          directory = ".ssh";
-          mode = "0700";
-        }
-        {
-          directory = ".local";
-          mode = "0700";
-        }
-        ".librewolf"
-        ".themes"
-        "dotfiles"
-        "nixos-config"
-        "projects"
-      ];
-      files = [
-        #".screenrc"
-        ".bashrc"
-        ".profile"
-        ".zshrc"
-      ];
-    };
   };
 
   # github.com impermanence Issues Persisting passwords (/etc/shadow) #120
