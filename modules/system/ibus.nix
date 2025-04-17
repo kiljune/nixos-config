@@ -13,7 +13,7 @@
     inputMethod = {
       type = "ibus";
       enable = true;
-      ibus.engines = with pkgs.ibus-engines; [ hangul ];
+      ibus.engines = with pkgs.ibus-engines; [hangul];
     };
   };
 }
