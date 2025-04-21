@@ -20,6 +20,12 @@
     (./. + "../../../modules/system/gpu" + ("/" + systemSettings.gpu) + ".nix")
   ];
 
+  # mount Backup disk
+  fileSystems."/mnt/Backup" = {
+    device = "/dev/disk/by-uuid/f93716d0-89e3-4dfc-a05b-1829a2da0c82";
+    fsType = "ext4";
+  };
+
   # Extra Module Options
   local.hardware-clock.enable = false;
   system.plymouth.enable = false;
