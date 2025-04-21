@@ -25,8 +25,6 @@
     #  dedicatedServer.openFirewall = true;
     #};
 
-    seahorse.enable = true;
-    fuse.userAllowOther = true;
     mtr.enable = true;
     gnupg.agent = {
       enable = true;
