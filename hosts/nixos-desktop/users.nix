@@ -30,7 +30,7 @@
   nix.settings.trusted-users = ["@wheel"];
   nix.settings.allowed-users = ["${userSettings.username}"];
   environment.shells = with pkgs; [bash zsh fish];
-  environment.systemPackages = with pkgs; [lsd fzf];
+  environment.systemPackages = with pkgs; [starship lsd fzf];
 
   programs = {
     fish.enable = true;
