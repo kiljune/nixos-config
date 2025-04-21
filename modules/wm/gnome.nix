@@ -9,10 +9,6 @@
   userSettings,
   ...
 }: {
-  imports = [
-    ./gnome-keyring.nix
-  ];
-
   services = {
     xserver = {
       enable = true;
