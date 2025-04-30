@@ -22,6 +22,7 @@ in {
       fwupd.enable = true;
       upower.enable = true;
       thermald.enable = true;
+			acpid.enable = true;
       tlp.enable = false;
       tlp.settings = {
         CPU_ENERGY_PERF_POLICY_ON_AC = "power";
