@@ -3,12 +3,8 @@
     gtk3
     gtk4
     gtk-engine-murrine
-    papirus-folders
     papirus-icon-theme
-    nordzy-icon-theme
     bibata-cursors
-    nordic
-    orchis-theme
     libsForQt5.qt5ct
     libsForQt5.qt5.qtwayland
     qt6ct
