@@ -5,4 +5,9 @@
 
   security.pam.services.login.enableGnomeKeyring = true;
   security.pam.services.gnome-keyring.rssh = true;
+
+  environment.systemPackages = with pkgs; [
+    seahorse
+    gcr
+  ];
 }
