@@ -25,7 +25,7 @@
     #  dedicatedServer.openFirewall = true;
     #};
 
-    firefox = true;
+    firefox.enable = true;
 
     mtr.enable = true;
     gnupg.agent = {
