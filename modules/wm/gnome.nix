@@ -42,10 +42,12 @@
     gnomeExtensions.app-menu-is-back
     gnomeExtensions.blur-my-shell
     gnomeExtensions.add-to-desktop
-    gnomeExtensions.forge
+    gnomeExtensions.logo-menu
     gnomeExtensions.fuzzy-app-search
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.quick-settings-tweaker
     gnomeExtensions.caffeine
+    gnomeExtensions.tiling-shell
+    gnomeExtensions.user-themes
   ];
 }
