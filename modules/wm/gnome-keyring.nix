@@ -8,6 +8,5 @@
 
   environment.systemPackages = with pkgs; [
     seahorse
-    gcr_4
   ];
 }
