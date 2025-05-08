@@ -4,7 +4,7 @@
     kitty
     alacritty
     keepassxc
-		librewolf
+    librewolf
     neovide
   ];
 }
