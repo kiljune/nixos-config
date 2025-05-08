@@ -10,7 +10,6 @@
   ...
 }: {
   imports = [
-    ./gnome-keyring.nix
   ];
 
   security.pam.services.hyprlock = {
