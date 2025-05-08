@@ -38,10 +38,10 @@
     # Zsh configuration
     zsh = {
       enable = true;
-      #enableCompletion = true;
+      enableCompletion = true;
 
-      #autosuggestions.enable = true;
-      #syntaxHighlighting.enable = true;
+      autosuggestions.enable = true;
+      syntaxHighlighting.enable = true;
 
       #promptInit = ''
       #  fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
