@@ -22,8 +22,8 @@ in {
       fwupd.enable = true;
       upower.enable = true;
       thermald.enable = true;
-			acpid.enable = true;
-      tlp.enable = false;
+      acpid.enable = true;
+      tlp.enable = true;
       tlp.settings = {
         CPU_ENERGY_PERF_POLICY_ON_AC = "power";
         CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
