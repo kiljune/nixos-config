@@ -27,4 +27,8 @@
       }
     })
   '';
+
+  environment.systemPackages = with pkgs; [
+    libsecret
+  ];
 }
