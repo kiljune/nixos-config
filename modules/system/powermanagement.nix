@@ -19,7 +19,6 @@ in {
   config = mkIf cfg.enable {
     services = {
       power-profiles-daemon.enable = true;
-      fwupd.enable = true;
       upower.enable = true;
       thermald.enable = true;
       acpid.enable = true;
