@@ -49,7 +49,7 @@
       ];
     };
 
-		fwupd.enable = true;
+    fwupd.enable = true;
 
     #hardware.openrgb.enable = true;
     #hardware.openrgb.motherboard = "amd";
