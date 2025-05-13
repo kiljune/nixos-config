@@ -33,7 +33,7 @@
   system.btrfs.enable = false;
   system.zfs.enable = false;
   system.zram.enable = true;
-  system.podman.enable = false;
+  system.podman.enable = true;
   system.docker.enable = false;
   system.virt-manager.enable = true;
 
