@@ -61,5 +61,13 @@
         };
       };
     };
+    nodev = {
+      "/tmp" = {
+        fsType = "tmpfs";
+        mountOptions = [
+          "size=4G"
+        ];
+      };
+    };
   };
 }
