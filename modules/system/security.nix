@@ -27,9 +27,4 @@
       }
     })
   '';
-
-  environment.systemPackages = with pkgs; [
-    libsecret
-    gcr_4
-  ];
 }
