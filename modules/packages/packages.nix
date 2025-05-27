@@ -32,5 +32,7 @@
       enable = true;
       enableSSHSupport = true;
     };
+
+		ssh.startAgent = true;
   };
 }
