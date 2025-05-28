@@ -3,7 +3,6 @@
     (mpv.override {scripts = [mpvScripts.mpris];})
     kitty
     ptyxis
-    keepassxc
     neovide
   ];
 }
