@@ -17,9 +17,9 @@
         variant = "";
         options = "caps:escape";
       };
-      displayManager.gdm.enable = true;
-      desktopManager.gnome.enable = true;
     };
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
   };
 
   xdg.portal = {
