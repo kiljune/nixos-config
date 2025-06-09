@@ -57,7 +57,8 @@
         };
         modules = [
           inputs.disko.nixosModules.default
-          (import ./hosts/${systemSettings.hostname}/disko.nix)
+          (import ./hosts/${systemSettings.hostname}/disko.nix
+            {device = "/dev/disk/by-id/ata-2.5__SSD_512GB_CL2025022400573K";})
           inputs.impermanence.nixosModules.impermanence
           #inputs.distro-grub-themes.nixosModules.${system}.default
 
