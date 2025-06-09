@@ -9,6 +9,10 @@
   userSettings,
   ...
 }: {
+  imports = [
+    ./seahorse.nix
+  ];
+
   services = {
     xserver = {
       enable = true;
