@@ -17,5 +17,5 @@
     login.enableGnomeKeyring = true;
   };
 
-  services.dbus.packages = [pkgs.gnome-keyring pkgs.gcr];
+  services.dbus.packages = [pkgs.gnome-keyring pkgs.gcr_4];
 }
