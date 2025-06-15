@@ -17,12 +17,12 @@
         enable = false;
         consoleMode = "max";
       };
-			grub = {
-				enable = true;
-				efiSupport = true;
-				device = "nodev";
-				useOSProber = false;
-			};
+      grub = {
+        enable = true;
+        efiSupport = true;
+        device = "nodev";
+        useOSProber = false;
+      };
       efi = {
         #efiSysMountPoint = "/efi"; #this is if you have separate /efi partition
         canTouchEfiVariables = true;
