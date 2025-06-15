@@ -41,7 +41,7 @@
               extraArgs = ["-f"];
 
               subvolumes = {
-                "@root" = {
+                "@rootfs" = {
                   mountpoint = "/";
                 };
                 "@home" = {
