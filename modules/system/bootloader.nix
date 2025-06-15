@@ -14,14 +14,20 @@
     # Bootloader SystemD
     loader = {
       systemd-boot = {
-        enable = true;
+        enable = false;
         consoleMode = "max";
       };
+			grub = {
+				enable = true;
+				efiSupport = true;
+				device = "nodev";
+				useOSProber = false;
+			};
       efi = {
         #efiSysMountPoint = "/efi"; #this is if you have separate /efi partition
         canTouchEfiVariables = true;
       };
-      timeout = 3;
+      timeout = 2;
     };
     ## -end of BOOTLOADERS----- ##
 
