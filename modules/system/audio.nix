@@ -17,7 +17,5 @@
       pulse.enable = true;
       wireplumber.enable = true;
     };
-    # Enable sound with pipewire.
-    pulseaudio.enable = false;
   };
 }
