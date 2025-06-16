@@ -18,8 +18,12 @@
         "com.github.tchx84.Flatseal"
         "org.mozilla.firefox"
         "org.keepassxc.KeePassXC"
-        #"com.calibre_ebook.calibre"
-        #"org.getoutline.OutlineClient"
+        "it.mijorus.gearlever"
+        "io.github.flattool.Warehouse"
+        "me.iepure.devtoolbox"
+        "io.github.dvlv.boxbuddyrs"
+        "com.mattjakeman.ExtensionManager"
+        "com.calibre_ebook.calibre"
       ];
     };
   };
