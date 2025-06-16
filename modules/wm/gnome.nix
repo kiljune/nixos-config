@@ -51,6 +51,7 @@
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.quick-settings-tweaker
     gnomeExtensions.caffeine
+		gnomeExtensions.paperwm
     gnomeExtensions.tiling-shell
     gnomeExtensions.user-themes
   ];
