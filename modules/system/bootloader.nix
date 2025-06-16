@@ -14,11 +14,11 @@
     # Bootloader SystemD
     loader = {
       systemd-boot = {
-        enable = false;
+        enable = true;
         consoleMode = "max";
       };
       grub = {
-        enable = true;
+        enable = false;
         efiSupport = true;
         device = "nodev";
         useOSProber = false;
