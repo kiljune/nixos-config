@@ -17,6 +17,7 @@ in {
       fd
       bc
       jq
+      tree
       cpufrequtils
       duf
       fastfetch
