@@ -30,9 +30,7 @@
     #mtr.enable = true;
     gnupg.agent = {
       enable = true;
-      #enableSSHSupport = true;
+      enableSSHSupport = true;
     };
-
-    ssh.startAgent = true;
   };
 }
