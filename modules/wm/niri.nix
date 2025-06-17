@@ -10,6 +10,7 @@
   ...
 }: {
   imports = [
+    ./seahorse.nix
   ];
 
   services = {
@@ -20,6 +21,14 @@
     };
   };
 
+  xdg.portal = {
+    enable = true;
+    wlr.enable = false;
+    configPackages = [
+      pkgs.xdg-desktop-portal-gnome
+    ];
+  };
+
   programs = {
     niri = {
       enable = true;
@@ -28,9 +37,12 @@
   };
 
   environment.systemPackages = with pkgs; [
+    alacritty
+    fuzzel
     polkit_gnome
     waybar
     waypaper
+    swaylock
     libnotify
     rofi-wayland
     wlogout
