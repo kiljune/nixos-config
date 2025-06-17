@@ -29,12 +29,7 @@
     ];
   };
 
-  programs = {
-    niri = {
-      enable = true;
-      package = pkgs.niri;
-    };
-  };
+  programs.niri.enable = true;
 
   environment.systemPackages = with pkgs; [
     alacritty
