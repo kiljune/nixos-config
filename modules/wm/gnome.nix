@@ -14,14 +14,6 @@
   ];
 
   services = {
-    xserver = {
-      enable = true;
-      xkb = {
-        layout = systemSettings.keyboard;
-        variant = "";
-        options = "caps:escape";
-      };
-    };
     displayManager.gdm.enable = true;
     desktopManager.gnome.enable = true;
   };
@@ -29,12 +21,8 @@
   xdg.portal = {
     enable = true;
     wlr.enable = false;
-    extraPortals = [
-      pkgs.xdg-desktop-portal-gnome
-    ];
     configPackages = [
       pkgs.xdg-desktop-portal-gnome
-      pkgs.xdg-desktop-portal
     ];
   };
 
