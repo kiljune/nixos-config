@@ -16,7 +16,7 @@
     displayManager.sddm = {
       enable = true;
       theme = "chili";
-			wayland.enable = true;
+      wayland.enable = true;
     };
   };
 
