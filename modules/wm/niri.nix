@@ -16,15 +16,7 @@
     displayManager.sddm = {
       enable = true;
       theme = "chili";
-    };
-    xserver = {
-      enable = false;
-      xkb = {
-        layout = systemSettings.keyboard;
-        variant = "";
-        options = "caps:escape";
-      };
-      excludePackages = [pkgs.xterm];
+			wayland.enable = true;
     };
   };
 
