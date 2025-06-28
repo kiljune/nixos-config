@@ -31,7 +31,7 @@
   environment.systemPackages = with pkgs; [
     polkit_gnome
     gnome-tweaks
-    gnomeExtensions.dash-to-dock
+    gnomeExtensions.dash2dock-lite
     gnomeExtensions.appindicator
     gnomeExtensions.app-menu-is-back
     gnomeExtensions.blur-my-shell
