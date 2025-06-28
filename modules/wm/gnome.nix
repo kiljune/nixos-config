@@ -22,6 +22,8 @@
     enable = true;
     wlr.enable = false;
     configPackages = [
+      pkgs.xdg-desktop-portal
+      pkgs.xdg-desktop-portal-gtk
       pkgs.xdg-desktop-portal-gnome
     ];
   };
