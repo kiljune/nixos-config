@@ -21,7 +21,7 @@
     ./security.nix
     ./powermanagement.nix
     ./btrfs.nix
-    ./zfs.nix
+    #./zfs.nix
     ./zram.nix
     ./locale.nix
     ./fonts.nix
