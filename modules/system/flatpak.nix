@@ -17,7 +17,7 @@
       packages = [
         "com.github.tchx84.Flatseal"
         #"org.mozilla.firefox"
-        "org.keepassxc.KeePassXC"
+        #"org.keepassxc.KeePassXC"
         "it.mijorus.gearlever"
         "io.github.flattool.Warehouse"
         "me.iepure.devtoolbox"

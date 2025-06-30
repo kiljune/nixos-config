@@ -4,5 +4,6 @@
     kitty
     ptyxis
     neovide
+		keepassxc
   ];
 }
