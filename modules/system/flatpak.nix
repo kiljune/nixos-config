@@ -16,7 +16,7 @@
       enable = true;
       packages = [
         "com.github.tchx84.Flatseal"
-        "org.mozilla.firefox"
+        #"org.mozilla.firefox"
         "org.keepassxc.KeePassXC"
         "it.mijorus.gearlever"
         "io.github.flattool.Warehouse"
