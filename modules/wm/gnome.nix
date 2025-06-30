@@ -44,5 +44,6 @@
     gnomeExtensions.paperwm
     gnomeExtensions.tiling-shell
     gnomeExtensions.user-themes
+    gnomeExtensions.gtk4-desktop-icons-ng-ding
   ];
 }
