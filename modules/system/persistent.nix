@@ -42,6 +42,7 @@ in {
       "/var/lib/nixos"
       "/var/lib/systemd/coredump"
       "/var/lib/libvirt"
+      "/var/lib/flatpak"
       "/etc/NetworkManager/system-connections"
       {
         directory = "/var/lib/colord";
