@@ -37,7 +37,7 @@
       settings = {
         PermitRootLogin = "no";
         PasswordAuthentication = false;
-				UsePAM = false;
+        UsePAM = false;
       };
     };
 
