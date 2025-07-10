@@ -13,7 +13,7 @@ with lib; let
   cfg = config.system.docker;
 in {
   options.system.docker = {
-    enable = mkEnableOption "Enable podman support";
+    enable = mkEnableOption "Enable docker support";
   };
 
   config = mkIf cfg.enable {
