@@ -31,7 +31,11 @@
         "com.mattjakeman.ExtensionManager"
         "com.calibre_ebook.calibre"
       ];
-      update.onActivation = true;
+      #update.onActivation = true;
+      update.auto = {
+        enable = true;
+        onCalendar = "weekly";
+      };
     };
   };
 }
