@@ -33,6 +33,7 @@
 
   environment.systemPackages = with pkgs; [
     alacritty
+    kitty
     fuzzel
     polkit_gnome
     waybar
