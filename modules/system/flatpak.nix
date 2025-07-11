@@ -14,10 +14,12 @@
   services = {
     flatpak = {
       enable = true;
-			remotes = [{
-				name = "flathub"
-				location = "https://flathub.org/repo/flathub.flatpakrepo"
-			}];
+      remotes = [
+        {
+          name = "flathub";
+          location = "https://flathub.org/repo/flathub.flatpakrepo";
+        }
+      ];
       packages = [
         "com.github.tchx84.Flatseal"
         #"org.mozilla.firefox"
@@ -29,7 +31,7 @@
         "com.mattjakeman.ExtensionManager"
         "com.calibre_ebook.calibre"
       ];
-			update.onActivation = true;
+      update.onActivation = true;
     };
   };
 }
