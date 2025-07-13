@@ -10,7 +10,10 @@
   ...
 }: {
   programs.seahorse.enable = true;
-  programs.ssh.askPassword = "${pkgs.seahorse}/libexec/seahorse/ssh-askpass";
+  programs.ssh = {
+    enableAskPassword = true;
+    askPassword = "${pkgs.seahorse}/libexec/seahorse/ssh-askpass";
+  };
   #security.pam.services = {
   #  greetd.enableGnomeKeyring = true;
   #  greetd-password.enableGnomeKeyring = true;
