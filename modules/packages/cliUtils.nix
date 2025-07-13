@@ -9,6 +9,7 @@
 in {
   environment.systemPackages =
     (with pkgs; [
+      gcr_4
       wget
       git
       curl
