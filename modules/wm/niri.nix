@@ -14,10 +14,8 @@
   ];
 
   services = {
-    displayManager.sddm = {
+    displayManager.ly = {
       enable = true;
-      theme = "chili";
-      wayland.enable = true;
     };
   };
 
@@ -53,14 +51,9 @@
     pavucontrol
     networkmanagerapplet
     swaynotificationcenter
-    sddm-chili-theme
     nautilus
     nautilus-open-any-terminal
-    nwg-look
-    nwg-displays
-    nwg-dock-hyprland
     kdePackages.qtstyleplugin-kvantum
-    xfce.tumbler
     libadwaita
     brightnessctl
   ];
