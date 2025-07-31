@@ -11,7 +11,7 @@
   ...
 }: {
   imports = [
-    ./hardware-configuration.nix
+    /etc/nixos/hardware-configuration.nix
     ./users.nix
     ../../modules/system/system.nix
     ../../modules/packages/packages.nix
